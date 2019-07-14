@@ -1,0 +1,310 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09-jul-2019, 10:54:28
+    Author     : LENOVO
+*/
+
+body {
+	background: url(../imagen/header_1px.jpg) repeat-x;
+	margin:0px;
+	font-family:Verdana,Arial,Helvetica;
+	font-size:11px;
+}
+#cabecera {
+	margin: 0 auto;
+	width:1000px;
+	height:400px;
+	background: url(../imagen/header.jpg) no-repeat;
+	position: relative;
+	z-index:5;
+}
+#logo {
+	background:url(../imagen/logo.png) no-repeat;
+	width:200px;
+	height:150px;
+	position:relative;
+	top:50px;
+	left:406px;
+}
+#logo a {
+	width:100%;
+	height:100%;
+	display:block;
+}
+
+.htit {
+	color:#FFF;
+	text-align:center;
+	margin:62px 0 0 0;
+	font-size:9px;
+}
+#menu {
+	width:592px !important;
+	width:620px;
+	height:194px;
+	margin:30px auto;
+}
+#menu a {
+	display:block;
+	width:128px;
+	text-align: center;
+	font-size:18px;
+	color:#A1A1A1;
+	text-decoration:none;
+	padding:140px 0 0 0;
+	float:left;
+	margin:0 10px;
+}
+#menu a:hover {
+	color:#000;
+}
+.menu_login {
+	background: url(../imagen/icons/login.png) no-repeat;
+	background-position:0px 4px;
+}
+.menu_inicio {
+	background: url(../imagen/icons/inicio.png) no-repeat;
+	background-position:12px 8px;
+}
+.menu_historial {
+	background: url(../imagen/icons/historial.png) no-repeat;
+	background-position:0px 3px;
+}
+.menu_directorio {
+	background: url(../imagen/icons/folder.png) no-repeat;
+	background-position:0px 4px;
+}
+
+
+#cnt {
+	width:1000px;
+	margin:0 auto;
+	background: url(../imagen/content.jpg) repeat-y 0 165px;
+}
+#cnt2 {
+	width:1000px;
+	margin:0 auto;
+	background: url(../imagen/content2.jpg) repeat-y 0 165px;
+}
+
+/* -- Footer Style  -- */
+#foo {
+	width:100%;
+	height:63px;
+	background: url(../imagen/fbg.jpg) repeat-x;
+}
+#foot_menu {
+	width:1000px;
+	height:63px;
+	margin:0px auto;
+	position:relative;
+	background: url(../imagen/footer.jpg) no-repeat;
+
+}
+
+#text{
+	margin-top:130px;
+	margin-left:140px;
+	width:400px;
+}
+#fondo{
+	width:550px;
+	height:600px;
+	margin-left:220px; 
+	-webkit-filter: blur(0.7px);
+}
+.is{
+	position: relative;
+	top: 130px;
+	left: 50px;
+	z-index: 2;
+}
+.is div{
+	float: left;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+.is div span{
+	color: #5379fa !important;
+}
+.login{
+	position: relative;
+	top: 80px;
+	left: 250px;
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: #b2ffff;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: b2ffff;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=button]{
+	width: 250px;
+	height: 35px;
+	background:#878787;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+/*-------------left_content------------------*/
+.left_content{
+width:180px;
+padding-left:150px;
+padding-top:70px;
+}
+.title_box{
+width:180px;
+height:30px;
+margin:5px 0 0 0;
+background:url(imagen/menu_title_bg.gif) no-repeat center;
+text-align:center;
+font-size:13px;
+font-weight:bold;
+color:#159dcc;
+line-height:30px;
+}
+/*--------left menu---------*/
+ul.left_menu{
+width:180px;
+padding:0px;
+margin:0px;
+list-style:none;
+}
+ul.left_menu li{
+margin:0px;
+list-style:none;
+}
+ul.left_menu li.odd a{
+width:166px;height:25px;display:block; border-bottom:1px #e4e4e4 dashed;
+text-decoration:none;color:#504b4b;padding:0 0 0 14px; line-height:25px;
+}
+ul.left_menu li.even a{
+width:166px;height:25px;display:block; border-bottom:1px #e4e4e4 dashed; background-color:#f0f4f5;
+text-decoration:none;color:#504b4b;padding:0 0 0 14px; line-height:25px;
+}
+ul.left_menu li.even a:hover, ul.left_menu li.odd a:hover{
+color:#000; text-decoration:underline;
+}
+	
+	
+
+#contenedor {
+padding-top:70px;
+padding-left:120px;
+width: 850px;  
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+}
+
+#contenedor input {
+height: 32px;
+visibility: hidden;
+}
+
+#contenedor label {
+float: left;
+cursor: pointer;
+font-size: 15px;  /* Tamaño del texto de las pestañas */
+line-height: 40px;
+height: 40px;
+padding: 0 20px;
+display: block;
+color: #888;  /* Color del texto de las pestañas */
+text-align: center;
+border-radius: 5px 5px 0 0;
+background: #eee;  /* Fondo de las pestañas */
+margin-right: 5px;
+}
+
+#contenedor input:hover + label {
+background: #ddd;  /* Fondo de las pestañas al pasar el cursor por encima */
+color: #666;  /* Color del texto de las pestañas al pasar el cursor por encima */
+}
+
+#contenedor input:checked + label {
+background: #FFDA91;  /* Fondo de las pestañas al presionar */
+color: #444; /* Color de las pestañas al presionar */
+z-index: 6;
+line-height: 45px;
+height: 45px;
+position: relative;
+top: -5px;
+-webkit-transition: .1s;
+-moz-transition: .1s;
+-o-transition: .1s;
+-ms-transition: .1s;
+}
+
+
+
+
+#text1 {
+position:absolute;
+margin-top:100px;
+margin-left:420px;
+width: 370px;  
+}
+#faltas {
+padding-left:180px;
+width: 600px;  
+}
